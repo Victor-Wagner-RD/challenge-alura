@@ -1,0 +1,125 @@
+*{
+  background: #FFA07A;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.logo_alura{
+  width: px;
+  height: 40px;
+}
+
+.palavra_chave{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+main{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.text-area{
+  border: none;
+  color: #0a3871;
+  margin-top: 90px;
+  text-transform: lowercase;
+  font-size: 32px;
+}
+
+::placeholder{color: black}
+   .text-area:focus{
+      outline: none;
+   }
+
+.mensagem{
+  background: white;
+   border-radius: 24px;
+  color: #0a3871;
+  margin-left: 98px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: fixed;
+}
+
+.mensagem:focus{
+  outline:none;
+}
+
+.botoes{
+  display: flex;
+  margin-top: 18px;
+}
+
+.btn-desencriptar{
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px ;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+}
+.btn-encriptar{
+  background-color: #0a3871;
+  border: 1 px solid #0a3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+
+.btn-copiar{
+  border: 1px solid black;
+  border-radius: 24px;
+  color: #0000CD;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 108px;
+  margin-top: 402px;
+  position: absolute;
+  width: 336px;
+}
+
+.informacao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.figura {
+  width: 25px;
+  height: 25px; 
+}
+
+.informacao h6 {
+  color: red;
+  margin: 0;
+  font-size: 14px;
+}
+
+.apresentacao {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 5px;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+}
+.apresentacao_t{
+  font-family: var(--fonte-Inter);
+  font-size: 0.7em;
+}
+.apresentacao_link {
+  text-decoration: none;
+  font-family: var(--fonte-Dancing);
+  font-size: 0.8em;
+  color: #006400;
+}
